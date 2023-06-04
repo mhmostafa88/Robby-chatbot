@@ -35,7 +35,6 @@ class Layout:
                 "Query:",
                 placeholder="Ask me anything about the document...",
                 key="input",
-                label_visibility="collapsed",
             )
             submit_button = st.form_submit_button(label="Send")
             

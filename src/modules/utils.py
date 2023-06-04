@@ -40,7 +40,7 @@ class Utilities:
         Handles and display uploaded_file
         :param file_types: List of accepted file types, e.g., ["csv", "pdf", "txt"]
         """
-        uploaded_file = st.sidebar.file_uploader("upload", type=file_types, label_visibility="collapsed")
+        uploaded_file = st.sidebar.file_uploader("upload", type=file_types)
         if uploaded_file is not None:
 
             def show_csv_file(uploaded_file):
